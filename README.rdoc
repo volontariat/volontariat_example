@@ -1,4 +1,4 @@
-= Volontariat Example {<img src="https://secure.travis-ci.org/Applicat/volontariat_example.png" />}[http://travis-ci.org/Applicat/volontariat_example] {<img src="https://codeclimate.com/badge.png" />}[https://codeclimate.com/github/Applicat/volontariat_example] {<img src="https://gemnasium.com/Applicat/volontariat_example.png?travis"/>}[https://gemnasium.com/Applicat/volontariat_example]
+= Volontariat Example 
 
 Example application using the crowdsourcing platform engine gem voluntary like http://Volontari.at do.
 
