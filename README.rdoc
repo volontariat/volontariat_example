@@ -1,0 +1,27 @@
+= Volontariat Example {<img src="https://secure.travis-ci.org/Applicat/volontariat_example.png" />}[http://travis-ci.org/Applicat/volontariat_example] {<img src="https://codeclimate.com/badge.png" />}[https://codeclimate.com/github/Applicat/volontariat_example] {<img src="https://gemnasium.com/Applicat/volontariat_example.png?travis"/>}[https://gemnasium.com/Applicat/volontariat_example]
+
+Example application using the crowdsourcing platform engine gem voluntary like http://Volontari.at do.
+
+== Installation
+
+=== Localhost
+
+http://railscasts.com/episodes/342-migrating-to-postgresql
+
+Copy content of config/database.example.yml to a new file config/database.yml and customize to your needs.
+
+  git clone https://github.com/Applicat/volontariat_example.git
+  bundle exec rake db:create && bundle exec rake db:migrate && bundle exec rake db:seed --trace
+  bundle exec rails server
+
+=== Test
+
+bundle exec rake db:test:clone_structure
+
+=== Production
+
+http://railscasts.com/episodes/335-deploying-to-a-vps
+
+== License 
+
+This project uses MIT-LICENSE.
