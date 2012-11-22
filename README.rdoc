@@ -11,6 +11,7 @@ http://railscasts.com/episodes/342-migrating-to-postgresql
 Copy content of config/database.example.yml to a new file config/database.yml and customize to your needs.
 
   git clone https://github.com/Applicat/volontariat_example.git
+  bundle exec rake voluntary_engine:install:migrations
   bundle exec rake db:create && bundle exec rake db:migrate && bundle exec rake db:seed --trace
   bundle exec rails server
 
